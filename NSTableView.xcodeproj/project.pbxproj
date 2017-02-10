@@ -13,6 +13,9 @@
 		84DF86531E4ACB5300A43325 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DF86511E4ACB5300A43325 /* MainMenu.xib */; };
 		84DF865E1E4ACB5300A43325 /* NSTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF865D1E4ACB5300A43325 /* NSTableViewTests.m */; };
 		84DF86691E4ACB5300A43325 /* NSTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF86681E4ACB5300A43325 /* NSTableViewUITests.m */; };
+		84DF86781E4ACB8900A43325 /* TableDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF86771E4ACB8900A43325 /* TableDate.m */; };
+		84DF867C1E4ACC3C00A43325 /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF867A1E4ACC3B00A43325 /* WC.m */; };
+		84DF867D1E4ACC3C00A43325 /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DF867B1E4ACC3B00A43325 /* WC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,11 @@
 		84DF86641E4ACB5300A43325 /* NSTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DF86681E4ACB5300A43325 /* NSTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTableViewUITests.m; sourceTree = "<group>"; };
 		84DF866A1E4ACB5300A43325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DF86761E4ACB8900A43325 /* TableDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDate.h; sourceTree = "<group>"; };
+		84DF86771E4ACB8900A43325 /* TableDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDate.m; sourceTree = "<group>"; };
+		84DF86791E4ACC3B00A43325 /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84DF867A1E4ACC3B00A43325 /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84DF867B1E4ACC3B00A43325 /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +104,17 @@
 		84DF86481E4ACB5300A43325 /* NSTableView */ = {
 			isa = PBXGroup;
 			children = (
+				84DF86761E4ACB8900A43325 /* TableDate.h */,
+				84DF86771E4ACB8900A43325 /* TableDate.m */,
 				84DF86491E4ACB5300A43325 /* AppDelegate.h */,
 				84DF864A1E4ACB5300A43325 /* AppDelegate.m */,
 				84DF864F1E4ACB5300A43325 /* Assets.xcassets */,
 				84DF86511E4ACB5300A43325 /* MainMenu.xib */,
 				84DF86541E4ACB5300A43325 /* Info.plist */,
 				84DF864C1E4ACB5300A43325 /* Supporting Files */,
+				84DF86791E4ACC3B00A43325 /* WC.h */,
+				84DF867A1E4ACC3B00A43325 /* WC.m */,
+				84DF867B1E4ACC3B00A43325 /* WC.xib */,
 			);
 			path = NSTableView;
 			sourceTree = "<group>";
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DF86501E4ACB5300A43325 /* Assets.xcassets in Resources */,
+				84DF867D1E4ACC3C00A43325 /* WC.xib in Resources */,
 				84DF86531E4ACB5300A43325 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF86781E4ACB8900A43325 /* TableDate.m in Sources */,
+				84DF867C1E4ACC3C00A43325 /* WC.m in Sources */,
 				84DF864E1E4ACB5300A43325 /* main.m in Sources */,
 				84DF864B1E4ACB5300A43325 /* AppDelegate.m in Sources */,
 			);
